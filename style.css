@@ -163,8 +163,13 @@ footer {
 	border-top-right-radius:2px;
 	border-bottom-left-radius:2px;
 	border-bottom-right-radius:2px;
-    border:1px solid rgba(255, 255, 255, 1);
+    border:1px solid rgb(213, 85, 175);
+	
+	
 }
+
+
+
 
 .zitate { 
 	color:rgba(0, 0, 0, 1);
