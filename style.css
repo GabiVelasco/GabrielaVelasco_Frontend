@@ -62,25 +62,25 @@
 	left:0px;
 	top:-1px;
 }
-.e1_2 { 
+/* .e1_2 { 
 	background-color:rgba(217.0000022649765, 217.0000022649765, 217.0000022649765, 1);
 	width:1920px;
 	height:1080px;
 	position:absolute;
 	left:0px;
 	top:-1px;
-}
-.e1_7 { 
+} */
+/* .e1_7 { 
 	background-color:rgba(217.0000022649765, 217.0000022649765, 217.0000022649765, 1);
 	width:340px;
 	height:83px;
 	position:absolute;
 	left:52px;
 	top:43px;
-}
+} */
 
 
-.e2_10 { 
+/* .e2_10 { 
 	background-color:rgba(217.0000022649765, 217.0000022649765, 217.0000022649765, 1);
 	width:738px;
 	height:95px;
@@ -88,17 +88,17 @@
 	left:1112px;
 	top:43px;
     
-}
+} */
 
 
-.e2_20 { 
+/* .e2_20 { 
 	background-color:rgba(217.0000022649765, 217.0000022649765, 217.0000022649765, 1);
 	width:1920px;
 	height:118px;
 	position:absolute;
 	left:0px;
 	top:961px;
-}
+} */
 .kontakt { 
 	color:rgba(30.00000011175871, 30.00000011175871, 30.00000011175871, 1);
 	width:193px;
@@ -123,15 +123,15 @@
 	font-size:20px;
 	letter-spacing:15;
 }
-.e2_28 { 
+/* .e2_28 { 
 	background-color:rgba(217.0000022649765, 217.0000022649765, 217.0000022649765, 1);
 	width:244px;
 	height:37px;
 	position:absolute;
 	left:1606px;
 	top:1001px;
-}
-.e2_30 { 
+} */
+.socialmedia{ 
 	color:rgba(10.625000316649675, 10.005207974463701, 10.005207974463701, 1);
 	width:159px;
 	height:24px;
@@ -142,6 +142,23 @@
 	text-align:left;
 	font-size:20px;
 	letter-spacing:15;
+}
+
+/* Social Media Icons Styling */
+ .socialmedia .social-icons {
+    margin-top: 20px;
+}
+
+.social-icons a {
+    color: white; /* Icon color */
+    font-size: 24px; /* Icon size */
+    margin: 0 10px; /* Spacing between icons */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #007bff; /* Color on hover */
 }
 .section-right { 
 	color:rgba(255, 255, 255, 1);
@@ -197,14 +214,14 @@
 	font-size:35px;
 	letter-spacing:15;
 }
-.e5_7 { 
+/* .e5_7 { 
 	background-color:rgba(217.0000022649765, 217.0000022649765, 217.0000022649765, 0);
 	width:863px;
 	height:657px;
 	position:absolute;
 	left:0px;
 	top:0px;
-}
+} */
 
 
 @media only screen and (max-width: 1920px) {
