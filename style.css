@@ -7,6 +7,11 @@
 
 }
 
+footer {
+	width:100%;
+}
+
+
 .nav { 
 	color:rgba(22.31249962002039, 20.732031427323818, 20.732031427323818, 1);
 	width:660px;
@@ -70,12 +75,26 @@
 	height:37px;
 	position:absolute;
 	left:80px;
-	top:1006px;
+	top:950px;
 	font-family:Montserrat Alternates;
 	text-align:left;
 	font-size:30px;
 	letter-spacing:15;
+	
 }
+.kontakt a{
+
+	text-decoration: none;
+	color:rgba(149.7816851735115, 22.684374265372753, 194.43749696016312, 1);
+}
+
+.kontakt a:hover{
+
+	text-decoration: underline;
+	color:rgba(149.7816851735115, 22.684374265372753, 194.43749696016312, 1);
+}
+
+
 .email { 
 	color:rgba(149.7816851735115, 22.684374265372753, 194.43749696016312, 1);
 	width:668px;
