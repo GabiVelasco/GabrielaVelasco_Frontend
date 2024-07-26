@@ -1,9 +1,48 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat+Alternates&display=swap");
 
-body {
+*, html, body {
     width: 100%;
     background-color:rgba(217.0000022649765, 217.0000022649765, 217.0000022649765, 1);
 
+}
+
+.nav { 
+	color:rgba(22.31249962002039, 20.732031427323818, 20.732031427323818, 1);
+	width:660px;
+	height:64px;
+	position:absolute;
+	left:1151px;
+	top:68px;
+	font-family:Montserrat Alternates;
+	text-align:left;
+	font-size:33px;
+	letter-spacing:15;
+    justify-content: space-between;
+}
+
+.nav a {
+    text-decoration: none;
+    color:rgba(22.31249962002039, 20.732031427323818, 20.732031427323818, 1);
+    padding: 10px;
+}
+
+.nav a:hover {
+    color: purple;
+}
+
+
+.logo { 
+	
+	color:rgba(10.625000316649675, 10.005207974463701, 10.005207974463701, 1);
+	width:263px;
+	height:49px;
+	position:absolute;
+	left:92px;
+	top:55px;
+	font-family:Montserrat Alternates;
+	text-align:left;
+	font-size:40px;
+	letter-spacing:15;
 }
 
 .ee5_2 { 
@@ -39,19 +78,8 @@ body {
 	left:52px;
 	top:43px;
 }
-.e1_8 { 
-	
-	color:rgba(10.625000316649675, 10.005207974463701, 10.005207974463701, 1);
-	width:263px;
-	height:49px;
-	position:absolute;
-	left:92px;
-	top:76px;
-	font-family:Montserrat Alternates;
-	text-align:left;
-	font-size:40px;
-	letter-spacing:15;
-}
+
+
 .e2_10 { 
 	background-color:rgba(217.0000022649765, 217.0000022649765, 217.0000022649765, 1);
 	width:738px;
@@ -59,19 +87,10 @@ body {
 	position:absolute;
 	left:1112px;
 	top:43px;
+    
 }
-.e2_14 { 
-	color:rgba(22.31249962002039, 20.732031427323818, 20.732031427323818, 1);
-	width:660px;
-	height:64px;
-	position:absolute;
-	left:1151px;
-	top:68px;
-	font-family:Montserrat Alternates;
-	text-align:left;
-	font-size:35px;
-	letter-spacing:15;
-}
+
+
 .e2_20 { 
 	background-color:rgba(217.0000022649765, 217.0000022649765, 217.0000022649765, 1);
 	width:1920px;
