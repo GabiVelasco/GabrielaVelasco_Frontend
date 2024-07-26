@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat+Alternates&display=swap");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css");
+@import url('https://fonts.googleapis.com/css?family=Raleway:200');
 
 *, html, body {
     width: 100%;
@@ -140,18 +141,10 @@ footer {
 .social-icons a:hover {
     color:purple; /* Color on hover */
 }
-.section-right { 
-	color:rgba(255, 255, 255, 1);
-	width:777px;
-	height:657px;
-	position:absolute;
-	left:1100px;
-	top:180px;
-	font-family:Montserrat Alternates;
-	text-align:left;
-	font-size:35px;
-	letter-spacing:15;
-}
+
+
+/* sectionleft properties */
+
 .section-left{ 
 	/* background-color:rgba(68.00000354647636, 68.00000354647636, 68.00000354647636, 0.029999999329447746); */
 	width:863px;
@@ -163,9 +156,7 @@ footer {
 	border-top-right-radius:2px;
 	border-bottom-left-radius:2px;
 	border-bottom-right-radius:2px;
-    border:1px solid rgb(213, 85, 175);
-	
-	
+    border:1px solid rgb(213, 85, 175);	
 }
 
 .zitate { 
@@ -197,6 +188,67 @@ footer {
 	animation-delay: 1s;
 }
 
+
+#box {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 400px;
+	height: 200px;
+	color: white;
+	font-family: 'Raleway';
+	font-size: 2.5rem;
+  }
+  .gradient-border {
+	--borderWidth: 3px;
+	/* background: #1D1F20; */
+	position: relative;
+	border-radius: var(--borderWidth);
+  }
+  .gradient-border:after {
+	content: '';
+	position: absolute;
+	top: calc(-1 * var(--borderWidth));
+	left: calc(-1 * var(--borderWidth));
+	height: calc(100% + var(--borderWidth) * 2);
+	width: calc(100% + var(--borderWidth) * 2);
+	background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+	border-radius: calc(2 * var(--borderWidth));
+	z-index: -1;
+	animation: animatedgradient 3s ease alternate infinite;
+	background-size: 300% 300%;
+  }
+
+    
+  @keyframes animatedgradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+/* sectionleft properties ENDE */
+
+/* sectionright properties */
+
+  .section-right { 
+	color:rgba(255, 255, 255, 1);
+	width:777px;
+	height:657px;
+	position:absolute;
+	left:1100px;
+	top:180px;
+	font-family:Montserrat Alternates;
+	text-align:left;
+	font-size:35px;
+	letter-spacing:15;
+}
 
 
 .effect1 {
@@ -238,7 +290,7 @@ footer {
 
 }
 
-
+/* sectionright properties ENDE */
 
 
 
