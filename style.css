@@ -155,8 +155,8 @@
 	font-size:35px;
 	letter-spacing:15;
 }
-.e5_6 { 
-	background-color:rgba(68.00000354647636, 68.00000354647636, 68.00000354647636, 0.029999999329447746);
+.section-left{ 
+	/* background-color:rgba(68.00000354647636, 68.00000354647636, 68.00000354647636, 0.029999999329447746); */
 	width:863px;
 	height:657px;
 	position:absolute;
@@ -166,11 +166,10 @@
 	border-top-right-radius:2px;
 	border-bottom-left-radius:2px;
 	border-bottom-right-radius:2px;
+    border:1px solid rgba(255, 255, 255, 1);
 }
 
-.ee5_6 { 
-	border:1px solid rgba(255, 255, 255, 1);
-}
+
 
 .zitate { 
 	color:rgba(0, 0, 0, 1);
