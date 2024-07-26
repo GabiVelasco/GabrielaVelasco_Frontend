@@ -99,7 +99,7 @@
 	left:0px;
 	top:961px;
 }
-.e2_22 { 
+.footer { 
 	color:rgba(30.00000011175871, 30.00000011175871, 30.00000011175871, 1);
 	width:193px;
 	height:37px;
@@ -111,13 +111,13 @@
 	font-size:35px;
 	letter-spacing:15;
 }
-.e2_27 { 
+.email { 
 	color:rgba(149.7816851735115, 22.684374265372753, 194.43749696016312, 1);
 	width:668px;
 	height:37px;
 	position:absolute;
 	left:341px;
-	top:1001px;
+	top:1015px;
 	font-family:Montserrat Alternates;
 	text-align:left;
 	font-size:20px;
@@ -172,7 +172,7 @@
 	border:1px solid rgba(255, 255, 255, 1);
 }
 
-.e2_35 { 
+.zitate { 
 	color:rgba(0, 0, 0, 1);
 	width:404px;
 	height:90px;
@@ -183,6 +183,8 @@
 	text-align:left;
 	font-size:50px;
 	letter-spacing:15;
+    font-style:italic;
+    filter: blur(1.6px);
 }
 .e2_32 { 
 	color:rgba(0, 0, 0, 1);
